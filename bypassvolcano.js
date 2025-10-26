@@ -743,10 +743,6 @@
                 if (debug) console.log('[Debug] Destination data:', data);
 
                 let waitTimeSeconds = 5;
-                const url = location.href;
-                if (url.includes('42rk6hcq') || url.includes('ito4wckq') || url.includes('pzarvhq1')) {
-                    waitTimeSeconds = 38;
-                }
 
                 if (secondsPassed >= waitTimeSeconds) {
                     if (panel) panel.show('backToCheckpoint', 'info');
