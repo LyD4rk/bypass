@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         Auto Bypass Volcano
+// @name         Auto Bypass Bolcano
 // @namespace    http://tampermonkey.net/
 // @version      1.6.2.2
 // @description  You only need to solve the captcha
-// @author       DyRian (based on IHaxU)
+// @author       gabo
 // @match        https://key.volcano.wtf/*
 // @match        https://work.ink/*
 // @run-at       document-start
